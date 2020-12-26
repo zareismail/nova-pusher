@@ -1,6 +1,6 @@
 <?php
 
-namespace Zareismail\NovaPusher;
+namespace Zareismail\Tools;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

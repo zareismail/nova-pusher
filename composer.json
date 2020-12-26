@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Zareismail\\NovaPusher\\": "src/"
+            "Zareismail\\Tools\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Zareismail\\NovaPusher\\NovaPusherServiceProvider"
+                "Zareismail\\Tools\\NovaPusherServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zareismail\NovaPusher;
+namespace Zareismail\Tools;
 
 use Illuminate\Contracts\Support\DeferrableProvider; 
 use Illuminate\Support\ServiceProvider;
