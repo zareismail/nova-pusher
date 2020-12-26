@@ -1,0 +1,31 @@
+{
+    "name": "zareismail/nova-pusher",
+    "description": "A tool for registering Laravel Echo into Nova.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "zareismail",
+        "pusher"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zareismail\\NovaPusher\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zareismail\\NovaPusher\\NovaPusherServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
